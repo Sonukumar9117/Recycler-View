@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="15dp"
+    android:clipToPadding="true"
+    android:layout_margin="3dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+    <com.google.android.material.imageview.ShapeableImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:srcCompat="@drawable/img1"
+        android:id="@+id/hImage"
+        android:scaleType="fitXY"
+        android:padding="10dp"
+        app:shapeAppearanceOverlay="@style/softcorner"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/heading"
+        android:textStyle="bold"
+        android:text="Joe Biden appoints two prominent Indian-American corporate leaders to his Export Council"/>
+</LinearLayout>
+</androidx.cardview.widget.CardView>
